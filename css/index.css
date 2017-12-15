@@ -1,0 +1,177 @@
+/*
+包裹层样式
+*/
+
+.ui-datepicker-wrapper {
+    width: 240px;
+    font-size: 16px;
+    color: #666;
+    box-shadow: 2px 2px 8px 2px rgba(128, 128, 128, .3);
+    display: none;
+    position: absolute;
+}
+
+
+/*
+显示控件
+*/
+
+.ui-datepicker-wrapper-show {
+    display: block;
+}
+
+
+/*
+头部样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-header {
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+
+/*
+按钮样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-btn {
+    font-family: serif;
+    font-size: 50px;
+    width: 20px;
+    line-height: 50px;
+    height: 50px;
+    color: #1aba9c;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*
+上一月份按钮的样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-prev-btn {
+    float: left;
+}
+
+
+/*
+下一月份按钮的样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-next-btn {
+    float: right;
+}
+
+
+/*
+   上一年 下一年的样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-prevyear-btn,
+.ui-datepicker-wrapper .ui-datepicker-nextyear-btn {
+    font-size: 20px;
+}
+
+.ui-datepicker-wrapper .ui-datepicker-prevyear-btn {
+    margin-left: 15px;
+}
+
+.ui-datepicker-wrapper .ui-datepicker-nextyear-btn {
+    margin-right: 15px;
+}
+
+
+/*
+ 为表格设置样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-body table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+/*
+ 为单元格设置样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-body th,
+.ui-datepicker-wrapper .ui-datepicker-body td {
+    height: 30px;
+    text-align: center;
+}
+
+
+/*
+表头的特殊样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-body th {
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+
+/*
+表格的特殊样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-body td {
+    border: 1px solid #f0f0f0;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+/*
+高亮显示
+*/
+
+.ui-datepicker-wrapper .datepicker-ui-todayHeightLight {
+    color: #fff;
+    background: #1aba9c;
+}
+
+
+/*
+控件底部样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-footer {
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+
+/*
+清空按钮的样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-footer-clear {
+    float: left;
+    margin-top: 14px;
+}
+
+
+/*
+今天按钮的样式
+*/
+
+.ui-datepicker-wrapper .ui-datepicker-footer-today {
+    margin-top: 14px;
+    float: right;
+}

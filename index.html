@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>datePicker</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style>
+        /*
+        日期输入框的样式
+        */
+        
+        .datepicker {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 5px;
+            height: 24px;
+            line-height: 24px;
+            width: 230px;
+        }
+        /*
+        日期输入框聚焦的样式
+        */
+        
+        .datepicker:focus {
+            border: 1px solid #1abc9c;
+            outline: 0 none;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" class="datepicker" />
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+<!--<script type="text/javascript" src="js/main.js"></script>-->
+<script>
+    var options = {};
+    datepicker('.datepicker', options);
+</script>
+
+</html>
